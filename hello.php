@@ -1,8 +1,5 @@
 <?php
-$tekst = "Dit is een variable";
-echo $tekst, "\r\n";
-echo $tekst, "\r\n";
-echo $tekst, "\r\n";
-echo $tekst, "\r\n";
-echo $tekst, "\r\n";
+$tekst = "Dit is een variable".PHP_EOL;
+echo str_repeat($tekst, 5);
 ?>
+
